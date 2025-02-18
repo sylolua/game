@@ -1,0 +1,273 @@
+local games = [[3008
+100 player slippery stairs
+A Dusty Trip
+Ability Wars
+Allblox battles
+Animal Race Simulator
+Ant War
+Arsenal
+Attack On Titan: Freedom War
+Anime Simulator
+Anime Training RNG
+Anime Card Battles
+Airsoft Battles
+Anime Shadow
+Aimblox
+Anime Reborn
+Avatar Fighting Simulator
+Asylum Life
+Anime RNG TD
+Auras Of Calamity
+Arm Wrestle Simulator 
+Baddie
+Basket Ball Legends
+Blox Fruits But Very Good
+Blood of punch
+Be npc or die!
+Blue lock: Rivals
+Bedwars
+Bee swarm Simulator
+Blade Ball
+Bike League
+Banana eats
+Blade Slayer
+Block Mayhem
+Block Tales
+BloxBurg
+Blox Fruit
+Boxing Fitness Simulator
+Break in
+Break in 2
+Brookhaven
+Blade & Buffoonery
+Build A Boat For Treasure
+Build A Boat Simulator
+Boss Slayer
+Boxing Beta
+Bloxcity RP
+Block Eater
+Be A Paper Airplane
+Cabin Crew Simulator
+Car Ramp Jump
+Car Crushers 2
+Car Race Clicker
+Car Dealership tycoon
+Catch A Fish Simulator
+Car Training 
+Clover Retribution
+Combat Warrior
+Counter Blox
+Cursed Arena
+Car RNG
+Criminality
+Character RNG
+Color Or Die
+Criminal Tycoon
+Da Hood
+Dah Hood
+Da Bot Aim Trainer
+Da Strike
+Da Hills
+Demon Fall
+Doors
+Dress To Impress
+Driving Empire 
+Dungeon Quest
+Drift Racing Simulator
+Dungeon RNG
+Dig It
+Devas Of Creation
+Dandy's World
+Dingus
+Dragon Ball RNG
+Doctors Office
+Duck Army
+Eat The World
+Epic MiniGames
+Evade
+Eat Pizza To Grow GigaChad
+Emergency Hamburg
+Fabled Legacy
+Flame Hood
+Frisbee Simulator
+Flee The Facility
+Fling Things And People
+Frontlines
+Fat Race
+Funky Friday
+Find The Noobies Morphs
+Find The Flags
+Fortline
+Find The Planets
+Feet Simulator
+Fisch
+Flying RNG
+Fingure's Library
+Fight In A School
+Find The Duck
+Grand Piece Online
+Gunfight Arena
+Guess The Anime
+Ground War
+Gym League
+Giant Survival
+Go Fishing
+GEF
+Highway Hoolings
+Hood Customs
+High Realms Skyblock
+Horror RNG
+Hade's RNG Rework
+Hide & Seek
+Hide Or Die
+Home Run Simulator
+Ice Fishing Simualtor
+Ice Tycoon
+Jail Break
+Jail Or Bail
+Jims RNG 
+Jujutsu Infinite
+Jujutsu Shenanigans
+Kamehameha Simulator
+Kat
+King Legacy
+Kill Noobs Simulator
+Keys
+Launch Into Space Simulator
+Liar's Table 
+Lucky Block Legends
+Legend Of Speed
+Lucky Blocks
+Lumber Tycoon 2
+Like Or Pass
+Light Game
+Lootify
+Mic Up
+Monkey Raft
+Make And Sell Weapons
+My Little Pony Tycoon
+Mega Princess Tycoon
+Merge Simulator
+Merge Toy
+Monster Evolution
+Murder Mystery 2
+Murderers Vs Sheriffs Duels
+Muscle Legends
+Mining Empire
+Moto Trackday Project
+Merge For Diamonds
+Maze Simulator
+Money Race
+Mount RNG
+Natural Disaster Survival
+Ninja Legends
+No-Scope Arcade
+No Limit Lifting Simulator
+One Fruit
+Pet Simulator 99
+Pets Go
+Phantom Forces
+Prison Life
+Project Slayers
+Pull A Sword
+Pressure
+Pass The Bomb
+Project Delta
+Plinko RNG
+Princess Tycoon
+Pets Trading
+Pls Donate
+Periastron Stars RPG
+Power Slap Simulator
+Pixel Prisons
+Pet Story
+Pet Star Simulator
+Pull The Rope
+Pull Up Simulator
+Pull Up Legends
+Race Clicker
+Rebirth Champions X
+Rumble Quest
+Reborn As Swordman
+Rivals
+Ro Ghoul
+Red Light, Green Light
+Royal High
+Realm Rampage
+Rock Climb Simulator
+Rebirth Masters X
+Saber Battle Simulator
+Survive The Slasher
+SpongeBob Tower Defense
+Sneaker RNG
+Spelling Bee
+Streetz War 2
+Squid Project
+Squid Game 2
+Shrimp Game
+Squid Game X
+Squid Game Season 2
+Scary Sushi 
+Super Power League
+Sol's RNG
+The Storage
+Specter
+Starving Artists
+Survive The Killier 
+Swordmaster Simulator
+Super League Soccer
+SCP Roleplay
+Super Anime Merge
+Swim League
+Sell Water To Rule The World
+Shark Bite Simulator
+Survive And Kill The Killers In Area 51
+Strucid
+Slash Mobs Simulator
+Squid Game
+Swords Battle Simulator
+Sword Slayer League
+Spin For Free
+Taxi Boss
+The Strongest Battleground
+Therapy
+The $1,000,000 Glass Bridge
+Type Or Die
+Tha Bronx 3
+Titan Training Simulator
+Tank Fight Simulator
+Tower Of Hell
+TPS: Street Soccer
+Track & Field: Infinite
+Tycoon RNG
+Tower Of Jump
+Toilet Lifting League
+Tha Bronx 2
+Too Many Weapons
+Trenches
+Trampoline Battle Simulator
+The Floor Is Acid
+Triathlon Star Simulator
+Underground War 2.0
+Untitled Tag Game
+Vehicle Legends
+Viral Simulator
+Volleyball Legends
+Word Bomb
+War Tycoon
+Warrior Simulator
+Westbound
+Your Brizarre Adventure
+Youtube Tycoon
+Youtube Race Simulator
+Zombie Attack
+]]
+
+-- Count the number of lines (games)
+local totalGames = select(2, games:gsub("\n", "\n")) + 1
+
+-- Print the full list
+print(games)
+
+-- Print the total count
+warn("Total Games: " .. totalGames)
