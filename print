@@ -19,6 +19,9 @@ Asylum Life
 Anime RNG TD
 Auras Of Calamity
 Arm Wrestle Simulator 
+Anime Dungeon Fighters
+Arise Crossover
+Be a hole
 Baddie
 Basket Ball Legends
 Blox Fruits But Very Good
@@ -68,6 +71,10 @@ Dah Hood
 Da Bot Aim Trainer
 Da Strike
 Da Hills
+Desert Detectors
+Drill Digging Simulator
+DISCH
+Dead rails
 Demon Fall
 Doors
 Dress To Impress
@@ -116,6 +123,7 @@ GEF
 Highway Hoolings
 Hood Customs
 High Realms Skyblock
+Hollow Era
 Horror RNG
 Hade's RNG Rework
 Hide & Seek
@@ -149,6 +157,7 @@ My Little Pony Tycoon
 Mega Princess Tycoon
 Merge Simulator
 Merge Toy
+Memory Murder
 Monster Evolution
 Murder Mystery 2
 Murderers Vs Sheriffs Duels
@@ -160,6 +169,8 @@ Maze Simulator
 Money Race
 Mount RNG
 Natural Disaster Survival
+Noob Crusher Tycoon
+Ninja Time
 Ninja Legends
 No-Scope Arcade
 No Limit Lifting Simulator
@@ -263,11 +274,6 @@ Youtube Race Simulator
 Zombie Attack
 ]]
 
--- Count the number of lines (games)
 local totalGames = select(2, games:gsub("\n", "\n")) + 1
-
--- Print the full list
 print(games)
-
--- Print the total count
 warn("Total Games: " .. totalGames)
